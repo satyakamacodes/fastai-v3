@@ -72,9 +72,20 @@ form {
 }
 
 .result-label {
-    margin-top: 0.2em;
+    margin-top: 2em;
     padding: 10px;
     font-size: 13px;
+	font-size: 30px;
+	
+	background-color: #ffffff;
+	text-align: center;
+	
+	width: 250px;
+    height: 50px;
+	
+	margin:auto;
+   display:block;
+	
 }
 
 button.choose-file-button {
