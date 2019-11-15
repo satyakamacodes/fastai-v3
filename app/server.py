@@ -10,7 +10,7 @@ from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
 export_file_url = 'https://www.googleapis.com/drive/v3/files/1-FOfwM-2L_XXWrIyhvHpwMbB8NI_danX?alt=media&key=AIzaSyCsOY6c7BFyKV-wkSceks4CuUWV91Hlpso'
-export_file_name = 'final_resnet_model.pkl'
+export_file_name = 'bpf_final_model.pkl'
 
 classes = ['Biriyani', 'Friedrice', 'Pulao']
 path = Path(__file__).parent
