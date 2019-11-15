@@ -1,1 +1,3 @@
-You can view the render application at https://cervical-cancer-testing.onrender.com/
+This web application is a result of my personal interest in Indian food and often getting confused of what exactly is the difference between BIRIYANI, PULAO and FRIEDRICE. I might mention here that they are fairly close to one another with very fine differences in taste, color and texture (of the food). Adding to the 
+
+I have developed this web based image processing application to help me in determining whether my 'mixed rice dish images' is a biriyani, pulao or friedrice. The model is based upon Deep Learning ResNet architecture. You can use the app from [indian-food-app-detect-biriyani-pulao-friedrice](https://biriyani-pulao-friedrice-detection.onrender.com/)
