@@ -1,5 +1,9 @@
 body {
-    background-color: #fff;
+    background-color: #221E1D;
+    background-image: url("background.jpg");
+    background-size: cover;
+	
+
 }
 
 .no-display {
@@ -10,14 +14,14 @@ body {
     margin: auto;
     padding: 10px 50px;
     text-align: center;
-    font-size: 14px;
+    font-size: 20px; //This application is created by Dr. Satyakama Paul and team....
 }
 
 .title {
-    font-size: 30px;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    color: #262626;
+    font-size: 80px;
+    margin-top: 0.5em; 
+    margin-bottom: 0.5em;
+    color: #ffffff;
 }
 
 .content {
@@ -28,35 +32,75 @@ body {
     margin-top: 5em;
 }
 
-.upload-label {
+
+form {
+  box-sizing: border-box;
+  width: 1200px;
+  margin: 5px auto 0;
+  box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.2);
+  padding-bottom: 3px;
+  padding-top: 3px;
+  border-radius: 20px;
+  background-color: #171717;
+  LINE-HEIGHT:30px;
+  
+  h1 {
+    box-sizing: border-box;
     padding: 10px;
-    font-size: 12px;
+	
+  }
+}
+
+
+
+
+
+.upload-label {
+	margin: 0;
+	padding: 10px;
+    font-size: 30px; //No file chosen
+	
+	border: solid 1px #ffe5b4;
+	border-radius: 3px;
+	background-color: #ffe5b4;
+	width: 200px;
+	
+	margin:auto;
+    display:block;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .result-label {
-    margin-top: 0.5em;
+    margin-top: 0.2em;
     padding: 10px;
     font-size: 13px;
 }
 
 button.choose-file-button {
-    width: 200px;
-    height: 40px;
+    width: 250px;
+    height: 50px;
     border-radius: 2px;
-    background-color: #ffffff;
-    border: solid 1px #7052CB;
-    font-size: 13px;
-    color: #7052CB;
+    background-color: #DC143C	;
+    border: solid 2px #DC143C;
+    font-size: 24px;
+    color:  #ffffff;
+	margin-top: -150px;
+	font-weight: bold;
+
+
+	
 }
 
 button.analyze-button {
-    width: 200px;
-    height: 40px;
-    border: solid 1px #7052CB;
-    border-radius: 2px;
-    background-color: #7052CB;
-    font-size: 13px;
+    width: 250px;
+    height: 50px;
+    border: solid 1px #006400;
+    border-radius: 3px;
+    background-color: #006400;
+    font-size: 24px;
     color: #ffffff;
+	font-weight: bold;
 }
 
 button:focus {
