@@ -2,15 +2,37 @@
 <head>
   <meta charset='utf-8'>
   <link rel='stylesheet' href='../static/style.css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
   <script src='../static/client.js'></script>
 </head>
 <body>
 <div>
   <div class='center'>
-    <div class='title'>Classification of Cervical Cancer</div>
+    <div class='title'>  Find if your serving is  <strong> <font color="#ffe416"> Biriyani </font> </strong> 
+							<strong> <font color="#ff164c"> Pulao </font> </strong> 
+							or <strong> <font color="#1687ff"> Fried rice </font> </strong> 
+	</div>
+
+	
+  <form>
+  	<h4> 
+		<font style = "font-family:Roboto;font-size:22px;font-style:regular;" color = "white"> 
+			<strong><font color="#FF9933">This application is created by Dr. Satyakama Paul and team. It is based upon Image Processing and Deep Learning.</font></strong> <br> 
+			For best results, please feed the app with 'mixed rice dish images' to find if its a biriyani, pulao or fried rice.<br> 			
+			<font color="#138808">For further details please feel free to contact at satyakama.paul@gmail.com </font> 
+		</font> 
+	</h4>	
+	
+	
+  </form> 
+
+ 
+
+
     <p>
-      Please upload images of <strong>Type 1</strong>, <strong>Type 2</strong>, <strong>Type 3</strong> cancerous cells!
+      Upload an image of <strong>mixed rice dish </strong>!
     </p>
+
     <div class='content'>
       <div class='no-display'>
         <input id='file-input'
@@ -20,19 +42,26 @@
                accept='image/*'
                onchange='showPicked(this)'>
       </div>
+
       <button class='choose-file-button' type='button' onclick='showPicker()'>Select Image</button>
+
+
       <div class='upload-label'>
         <label id='upload-label'>No file chosen</label>
       </div>
+
       <div>
-        <img id='image-picked' class='no-display' alt='Chosen Image' height='200'>
+        <img id='image-picked' class='no-display' alt='Chosen Image' height='300'>
       </div>
+
       <div class='analyze'>
         <button id='analyze-button' class='analyze-button' type='button' onclick='analyze()'>Analyze</button>
       </div>
+
       <div class='result-label'>
         <label id='result-label'></label>
       </div>
+
     </div>
   </div>
 </div>
